@@ -1,0 +1,45 @@
+{
+  "name": "tipso",
+  "title": "Tipso",
+  "description": "A Lightweight Responsive jQuery Tooltip Plugin",
+  "keywords": [
+    "tipso",
+    "jquery-plugin",
+    "tooltip",
+    "responsive",
+    "mobile",
+    "lightweight"
+  ],
+  "version": "1.0.8",
+  "author": "Bojan Petkovski (http://object505.com/)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://object505.mit-license.org/"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "demos": [
+    "http://tipso.object505.com/"
+  ],
+  "bugs": {
+    "url": "https://github.com/object505/tipso/issues/new"
+  },
+  "main": "src/tipso.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/object505/tipso.git"
+  },
+  "homepage": "https://github.com/object505/tipso",
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/object505/tipso.git",
+    "basePath": "src/",
+    "files": [
+      "**/*"
+    ]
+  }
+}
