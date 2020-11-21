@@ -631,7 +631,7 @@ jQuery('#body').tipso({
 				color: '#fff',
 				tooltipHover: true,
 				content: function(){
-					return '<span style="font-family: Amaranth,sans-serif;">Post a tweet by mentioning <b>@BloodBankBot1</b><br>'+
+					return '<span style="font-family: Amaranth,sans-serif;">Post a tweet by mentioning <b>@BloodFinderBot</b><br>'+
 							'and add required blood group name<br>'+
 							'and your city, we will find a blood<br>'+
 							'bank for you!</span>'
