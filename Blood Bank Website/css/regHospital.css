@@ -1,0 +1,26 @@
+.bg-has{
+	
+	height: 100%;
+	width: 100%;
+	
+}
+
+.form-container{
+	margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+.regHos{
+	font-weight: bold;
+	font-size: 1.5em;
+	
+}
+
+@media all and (max-width: 600px){
+	.form-container{
+		margin-top: 50px;
+	}
+	svg{
+		margin-top: 5%;
+	}
+}

@@ -1,0 +1,46 @@
+.main-container{
+	margin-top: 80px;
+}
+
+.add-info-heading{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+}
+.available-heading{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+}
+
+.blood-img{
+	height: 20vh;
+	width: 20vh;
+}
+.sample-value{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+}
+.sample-value input{
+	width: 2em;
+}
+.bg-change-input{
+	background-color: #F1FAEE;
+}
+
+.sample-value small{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 0.6em;
+}
+@media all and (max-width: 600px){
+	.blood-img{
+		height: 20vh;
+		width: 20vh;
+	}
+	.add-info-heading{
+		font-family: 'Amaranth', sans-serif;
+		font-size: 1.5em;
+	}
+	.available-heading{
+		font-family: 'Amaranth', sans-serif;
+		font-size: 1.5em;
+	}
+}

@@ -1,0 +1,46 @@
+.search-li{
+	cursor: pointer;
+	
+	max-height: 100px;
+	overflow-x: hidden;
+	box-shadow: 2px 3px 8px 0px #dbaaaa;
+
+}
+.list-search{
+	display: block;
+
+}
+.search-li li:hover{
+	background-color: #F1FAEE;
+
+}
+.list-group-item{
+	padding: .2rem 1.015rem !important;
+}
+.main-content{
+	background-color: #F1FAEE;
+	box-sizing: border-box;
+	padding: 20px;
+	font-family: 'Amaranth', sans-serif;
+}
+.blood-icon{
+	height: 10vh;
+	width: 10vh;
+}
+.hospital-heading{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2em;
+}
+.sorting{
+	margin: 10px;
+	align-self: center;
+	font-weight: bold;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 1.5em;
+}
+
+@media all and (max-width: 600px){
+	.sorting{
+		font-size: 1em;
+	}
+}

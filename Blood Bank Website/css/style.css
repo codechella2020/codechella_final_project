@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.banner svg{
+	
+	height: 100%;
+	width: 100%;
+}
+
+#newblood:hover{
+	transform: scale(1.01);
+	transition: transform 400ms ease-out 100ms;
+	cursor: pointer;
+	
+}
+
+
+#checkAvailability {
+  	animation: bouncee 2s infinite ease-out alternate;
+
+	cursor: pointer;
+}
+
+
+@keyframes bouncee {
+  50% {
+   	fill: white;
+
+  }
+  50% {
+    fill: cyan;
+  }
+}
+
+.scrolled{
+	background-color: #fff !important;
+	box-shadow: 2px 2px 3px #aaa;
+  	transition: background-color 200ms linear;
+}
+.heading
+{
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #E63946;
+
+}
+.heading-img{
+	height: 1.2em;
+	width: 1.2em;
+}
+
+.tagline{
+	
+	position: absolute;
+	
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.tagline-main{
+	color: #1D3557;
+	font-weight: bold;
+	font-size: 2.4em;
+	font-family: 'Amaranth', sans-serif;
+
+	text-shadow: -2px -2px 2px #F1FAEE;
+}
+.tagline-btn{
+	text-decoration: none;
+	font-size: 1.7em;
+	background-color: #31587A;
+	color: #F1FAEE;
+	padding: 10px;
+	border-radius: 2%;
+	box-shadow: 2px 1px 2px #A8DADC;
+	font-family: 'Amaranth', sans-serif;
+}
+
+.tagline-btn:hover{
+	text-decoration: none;
+	background-color: #D13440;
+	color: #F1FAEE;
+	box-shadow: 3px 2px 2px #D13440, 2px 1px 2px #F1FAEE;
+	transition: background-color 400ms linear;
+}
+
+.first-row{
+	padding: 30px;
+	margin-top: 30px;
+	
+	margin-bottom: 20px;
+}
+.bg-colour-change{
+	background-color: #F1FAEE;
+	
+}
+.sub-topic{
+	font-size: 1.3em;
+}
+.bg-change{
+	background-color: #eee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.about-us-img{
+	height: 17em;
+	width: 17em;
+}
+.sub-heading{
+	color: #457B9D;
+	margin-top: 40px;
+	
+	font-size: 5vh;
+}
+
+.blue-bg{
+	color: white;
+	background-color: #457B9D;
+}
+.blue-bg:hover{
+	background-color: #E63946;
+	transition: background-color 200ms linear;
+
+}
+footer{
+	font-size: 0.5em;
+	background-color: #A8DADC;
+	
+	padding: 10px;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@media all and (max-width: 600px){
+	.heading{
+		font-size: 1.5em;
+	}
+	.front{
+		background-color: #F1FAEE;
+		padding-left: 4px;
+		font-size: 1.5em;
+	}
+	.toggle-btn{
+		font-size: 0.9em !important;
+	}
+	.tagline{
+		top: 20%;
+	}
+	.tagline-main{
+		font-size: 1.7em;
+		text-shadow: 2px 0px 1px #F1FAEE;
+
+	}
+	.tagline-btn{
+		font-size: 1em;
+	}
+		#float{
+		width: 100px;
+		top: 0%;
+		z-index:1;
+	}
+	svg{
+		top: 20%;
+		margin-top: 50%;
+	}
+	.sub-heading{
+		font-size: 4vh;
+	}
+	.sub-topic{
+		font-size: 1em;
+	}
+	
+}
