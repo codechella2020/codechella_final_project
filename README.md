@@ -58,7 +58,7 @@ npm install
 ## Developed By -
 
 * [Akash Modak](https://github.com/akashmodak97)
-* [Bharati Sharma]()
+* [Bharati Sharma](https://github.com/bhartiddn01)
 * [Swarup Dey Sarkar](https://github.com/deysarkarswarup)
 
 
