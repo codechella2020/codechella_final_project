@@ -40,3 +40,18 @@ Tech Stack –
 Deployment –
 * [000webhost]
 * [Heroku]
+
+
+### Installation
+
+1. Get a Twitter Developer API Key at [Twitter Developer](https://developer.twitter.com/en)
+2. Clone the repo
+```sh
+git clone https://github.com/codechella2020/codechella_final_project.git
+```
+3. Install NPM packages
+```sh
+npm install
+```
+
+
