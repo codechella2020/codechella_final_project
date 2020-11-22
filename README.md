@@ -7,7 +7,9 @@
   </a>
 
   <p align="center">
-    <a href="https://codechella2020.000webhostapp.com">View Demo</a>
+    <a href="https://codechella2020.000webhostapp.com">View Website</a> ||
+    <a href="https://twitter.com/BloodFinderBot">View Bot</a> ||
+    <a href="https://docs.google.com/presentation/d/1XAw04aVSlmz4RWXaFN22hliDMLPUODpYvaOpkUG1vgk/edit?usp=sharing">View Documentation</a>
   </p>
 </p>
 
